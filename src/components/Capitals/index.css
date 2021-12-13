@@ -1,1 +1,36 @@
 /* Write your CSS here */
+.bgContainer {
+  background-color: #93c5fd;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cardContainer {
+  background-color: #ffffff;
+  border-radius: 10px;
+  width: 70vw;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  color: #323f4b;
+  font-family: 'Roboto';
+  font-size: 25px;
+}
+.selectStyle {
+  border-radius: 2px;
+  background-color: transparent;
+  width: 120px;
+  height: 20px;
+  border-color: #cbd2d9;
+}
+.selectContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
